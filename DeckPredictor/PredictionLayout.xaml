@@ -79,7 +79,7 @@
 	</StackPanel>
 	<!-- Tool Tip appears to the right of the main stack -->
 	<Canvas>
-		<controls:CardToolTipControl
+		<controls:CardImage
 			x:Name="CardToolTip"
 			Height="auto"
 			Panel.ZIndex="100"

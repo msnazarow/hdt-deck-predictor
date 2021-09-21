@@ -49,6 +49,7 @@ namespace DeckPredictor
 		public PluginConfig()
 		{
 			this.CurrentMetaFileVersion = "1";
+			this.CurrentMetaFileDownloadTime = new DateTime(2000, 01, 01);
 		}
 
 		public void Save()

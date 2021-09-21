@@ -48,11 +48,10 @@ namespace DeckPredictor
 					CardToolTip.Visibility = Visibility.Collapsed;
 					return;
 				}
-				CardToolTip.SetValue(
-					DataContextProperty, CardList.Items.Cast<AnimatedCard>().ElementAt(cardIndex).Card);
+				CardToolTip.SetCardIdFromCard(CardList.Items.Cast<AnimatedCard>().ElementAt(cardIndex).Card);
 
 				// Set the top of the tooltip so it appears next to the card.
-				var cardTopPos = cardSize * cardIndex;
+				var cardTopPos = cardSize * cardIndex - CardToolTip.ActualHeight / 2;
 				Canvas.SetTop(CardToolTip, cardTopPos);
 				CardToolTip.Visibility = Visibility.Visible;
 			}
