@@ -62,6 +62,10 @@ namespace DeckPredictor
 					Log.Info("Fetch data for class " + clas);
                     HtmlDocument htmlDoc = web.Load(string.Format("http://metastats.net/hearthstone/class/decks/{0}/", clas));
 					HtmlNodeCollection nodes = htmlDoc.DocumentNode.SelectNodes("//div[@class='decklist']//button[contains(@class,'copytoclipboard')]");
+                    if (nodes == null)
+                    {
+						continue;
+                    }
 					foreach (HtmlNode node in nodes)
                     {
 						string text = node.GetAttributeValue("data-clipboard-text", "");
