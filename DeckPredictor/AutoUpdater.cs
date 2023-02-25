@@ -12,7 +12,7 @@ namespace DeckPredictor
 {
 	class AutoUpdater
 	{
-		private const string GitHubUser = "fatheroctopus";
+		private const string GitHubUser = "msnazarow";
 		private const string GitHubRepo = "hdt-deck-predictor";
 		private static readonly string TempDirectory = Path.Combine(DeckPredictorPlugin.DataDirectory, "tmp");
 		private static readonly string TempPluginDirectory = Path.Combine(TempDirectory, "DeckPredictor");

@@ -1,16 +1,24 @@
+# Disclaimer
+I'm not the original developer of the mod, I'm not even a C# developer. But if you want to say me thanks for get it back to life 
+[My Patreon](https://www.patreon.com/MichaelNazarov) - all donats will be gratefully accesepted
+
 # HDT Deck Predictor
 
-[![GitHub release](https://img.shields.io/badge/release-1.1.0-green.svg)](https://github.com/fatheroctopus/hdt-deck-predictor/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/msnazarow/hdt-deck-predictor)](https://github.com/msnazarow/hdt-deck-predictor/releases/latest)
 
 A Plugin for Hearthstone Deck Tracker (HDT) that predicts the opponent's decklist.
 
 ## Installation
 - [Download and install HDT](https://hsdecktracker.net/).
-- [Download the Deck Predictor Plugin](https://github.com/fatheroctopus/hdt-deck-predictor/releases/latest).
+- [Download the Deck Predictor Plugin](https://github.com/msnazarow/hdt-deck-predictor/releases/latest).
 - Extract the downloaded archive to your "Plugins" directory.
   - This location can be found from within HDT: `Options -> Tracker -> Plugins -> Plugins Folder`.
   - Your directory structure should look like `%AppData%/HearthstoneDeckTracker/Plugins/DeckPredictor/DeckPredictor.dll`.
 - Restart HDT and enable the plugin in `Options -> Tracker -> Plugins`.
+
+### Version Update
+
+- To have a clean installation it' highly recommended to delete `%AppData%/HearthstoneDeckTracker/DeckPredictor` cache folder before version update
 
 ## Disclaimer
 Blizzard's stance on acceptable mods is that they accomplish things that could be done with "pencil and paper".

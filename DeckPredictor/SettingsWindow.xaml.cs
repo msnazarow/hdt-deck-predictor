@@ -26,7 +26,7 @@ namespace DeckPredictor
 
 		private void ButtonReadme_Click(object sender, RoutedEventArgs e)
 		{
-		    System.Diagnostics.Process.Start("https://github.com/fatheroctopus/hdt-deck-predictor");
+		    System.Diagnostics.Process.Start("https://github.com/msnazarow/hdt-deck-predictor");
 		}
 
 		public bool FitDeckListToDisplay
