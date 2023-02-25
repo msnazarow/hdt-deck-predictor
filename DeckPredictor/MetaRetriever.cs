@@ -21,7 +21,7 @@ namespace DeckPredictor
 		private static readonly double RecentDownloadTimeoutDays = 1;
 		private static readonly string MetaVersionUrl = "http://metastats.net/metadetector/metaversion.php";
 		private static readonly string MetaFilePath = Path.Combine(DeckPredictorPlugin.DataDirectory, @"metaDecks.xml");
-		private static readonly string[] ClassList = { "DemonHunter", "Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior" };
+		private static readonly string[] ClassList = { "DeathKnight", "DemonHunter", "Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior" };
 
 		public async Task<List<Deck>> RetrieveMetaDecks(PluginConfig config)
 		{
